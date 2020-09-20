@@ -363,7 +363,7 @@ AC_DEFUN([OVS_CHECK_PYTHON3],
         ovs_cv_python3=$PYTHON3
       else
         ovs_cv_python3=no
-        for binary in python3 python3.4 python3.5 python3.6 python3.7; do
+        for binary in python3 python3.4 python3.5 python3.6 python3.7 python3.8; do
           ovs_save_IFS=$IFS; IFS=$PATH_SEPARATOR
           for dir in $PATH; do
             IFS=$ovs_save_IFS
